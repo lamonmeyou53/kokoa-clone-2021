@@ -1,3 +1,12 @@
+.main-screen {
+  height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.main-screen::-webkit-scrollbar {
+  display: none;
+}
+
 .recommended-friends {
   margin: 25px 0;
   padding: 25px 0px;

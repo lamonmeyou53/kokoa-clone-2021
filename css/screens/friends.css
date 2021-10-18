@@ -5,8 +5,13 @@
   background-size: 100%;
   background-position: center 110%;
   height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
+#friends_screen::-webkit-scrollbar {
+  display: none;
+}
 #friends-display-link {
   display: block;
   text-align: center;
