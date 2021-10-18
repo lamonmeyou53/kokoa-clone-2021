@@ -1,0 +1,76 @@
+.nav {
+  background-color: var(--main-backgorund-color);
+  padding: 20px 50px;
+  border-top: 1px solid RGB(222, 27, 110, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  position: relative;
+  color: white;
+}
+.nav__list > a {
+  font-size: 25px;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  top: -5px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+.nav__notification2 {
+  background-color: var(--pink);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  right: -5px;
+  top: -4px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes apperarBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.nav__list {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: apperarBtnAnimation 0.6s ease-in-out forwards;
+}
+
+.nav__list:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.nav__list:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.nav__list:nth-child(4) {
+  animation-delay: 0.6s;
+}

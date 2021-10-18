@@ -1,0 +1,99 @@
+#friends_screen {
+  /* background-color: #88243c; */
+  background-image: url("../../img/요원.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center 110%;
+  height: 100%;
+}
+
+#friends-display-link {
+  display: block;
+  text-align: center;
+  background-color: RGBa(222, 27, 110, 0.1);
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#friends-display-link > i:nth-child(2) {
+  font-size: 14px;
+}
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+.friends-screen__channel__top {
+  border-top: var(--main-border);
+}
+
+.friends-screen__channel__top {
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.friends-screen__channel__frineds-header {
+  margin-top: 10px;
+}
+.subtitle__bottom {
+  display: block;
+  margin-top: 7px;
+  font-size: 13px;
+  opacity: 0.6;
+}
+.friends-screen__channel-header {
+  font-size: 14px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+.friends-screen__channel__top {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-bottom: var(--main-border);
+}
+.firends-top {
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+#splash-screen {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: var(--pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 2s;
+}
+
+#splash-screen::-webkit-scrollbar {
+  display: none;
+}
+
+#splash-screen > img {
+  width: 250px;
+}
+
+@keyframes hideSplashScreen {
+  form {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

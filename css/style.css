@@ -1,0 +1,63 @@
+@charset "uft-8";
+@import "reset.css";
+@import "variables.css";
+
+/* componets  */
+
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon.raw.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screen  */
+
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+/* font */
+
+/* for chat */
+
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
+    format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Light";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff")
+    format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 700px;
+  color: var(--main-backgorund-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.hangle-light {
+  font-weight: 700;
+  font-family: "Pretendard-Light";
+}
+.hangle-bold {
+  font-family: "Pretendard-SemiBold";
+}

@@ -1,0 +1,41 @@
+.icon-row,
+.icon-row__two {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-row__two {
+  flex-direction: column;
+}
+
+.icon-row__icon,
+.icon-row__icon__two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.icon-row__icon:nth-child(2) {
+  position: relative;
+}
+
+.icon-row__icon > i,
+.icon-row__icon__two > i {
+  font-size: 30px;
+}
+
+.icon-row__icon > span,
+.icon-row__icon__two > span {
+  display: block;
+  margin-top: 18px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.icon-row__nowrap {
+  display: flex;
+}
+.icon-row__wrap {
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+}

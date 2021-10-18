@@ -1,0 +1,122 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.user-component,
+.user-component__column:first-child,
+.user-component__friends {
+  display: flex;
+  align-items: center;
+}
+.user-component__friends {
+  justify-content: space-between;
+}
+.friends-screen__channel__firends {
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+.friends-screen__channel__firends:hover {
+  background-color: rgba(235, 106, 166, 0.2);
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 32px;
+  margin-right: 20px;
+}
+
+.user-component__name {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--main-backgorund-color);
+}
+.user-component__name__small {
+  font-size: 18px;
+  font-family: "Pretendard-SemiBold";
+}
+.user-component__subtitle-sm {
+  font-family: "Pretendard-SemiBold";
+  font-size: 12px;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__avatar--sm img {
+  width: 100%;
+}
+
+.user-component__avatar--sm,
+.user-component__avatar--smbox {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.user-component__avatar--smbox {
+  background-color: var(--pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-component__name--not-bold {
+  font-weight: 500;
+  font-size: 17px;
+}
+.user-component__avatar--smbox i {
+  font-size: 25px;
+  color: white;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__column:last-child > i {
+  font-size: 30px;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-component__subtitle {
+  display: flex;
+  align-items: center;
+}
+.user-component__iconMark {
+  margin-left: 5px;
+}
+.user-component__iconMark > span {
+  display: block;
+  background-color: white;
+  border: 1px solid var(--pink);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  color: var(--pink);
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.music {
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: var(--pink);
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+}

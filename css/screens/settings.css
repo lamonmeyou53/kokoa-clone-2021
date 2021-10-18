@@ -1,0 +1,50 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid RGBa(231, 28, 110, 0.3);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
+}
+.settings__setting .settings__setting-column:last-child {
+  font-size: 14px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+.more-screen {
+  height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.more-screen::-webkit-scrollbar {
+  display: none;
+}
+.settings__setting:last-child {
+  margin-bottom: 30px;
+}
+
+.settings__setting-column > a {
+  display: flex;
+}
+.settings__setting-column i {
+  display: block;
+  width: 20px;
+}
+.settings__setting-column {
+  transition: all 0.5s;
+}
+.settings__setting-column:hover {
+  color: var(--pink);
+}
+.settings__setting-column:hover i {
+  animation: dongdong 0.8s linear infinite;
+}

@@ -1,0 +1,80 @@
+.more-screen .icon-row__two {
+  margin-top: 35px;
+}
+.icon-row__notification {
+  background-color: var(--pink);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  right: 30px;
+  top: -25px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions__icon {
+  flex: 1;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggetsions__icon-text {
+  text-align: center;
+  transition: all 0.5s;
+}
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--pink);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+.more-suggestions__icon-image img {
+  width: 100%;
+}
+.more-suggestions__icon-image > i {
+  color: white;
+  font-size: 20px;
+}
+
+.icon-row__icon__two:hover {
+  cursor: pointer;
+  color: var(--pink);
+}
+
+.icon-row__icon__two {
+  transition: all 0.5s;
+}
+
+.more-suggestions__icon:hover > .more-suggetsions__icon-text {
+  color: var(--pink);
+  cursor: pointer;
+}
+
+.more-suggestions__icon:hover .more-suggestions__icon-image {
+  transform: scale(1.3);
+  margin-bottom: 20px;
+  cursor: pointer;
+}

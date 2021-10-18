@@ -1,0 +1,11 @@
+@charset "uft-8";
+
+:root {
+  --sub-font-color: rgb(99, 99, 99);
+  --pink: #e84180;
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(232, 65, 128, 0.8);
+  --sub-font: "Pretendard-SemiBold";
+  --test-font: "Pretendard-Light";
+  --main-backgorund-color: rgb(41, 41, 41);
+}
